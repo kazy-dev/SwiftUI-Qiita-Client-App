@@ -1,7 +1,7 @@
 # SwiftUI-Qiita-Client-App
 
-このアプリはQiitaの[こちら](https://qiita.com/you_matz/items/a3d640be2a8feaf698bd)の記事を参考にSwiftUI学習目的で作成したサンプルアプリです。
-入力したタグにヒットした最新記事50件をリスト表示します。
+このアプリはQiitaの[こちら](https://qiita.com/you_matz/items/a3d640be2a8feaf698bd)の記事を参考にSwiftUI学習目的で作成したサンプルアプリです。  
+入力したタグにヒットした最新記事50件をリスト表示します。  
 
 ## Gif
 <div align="center">
