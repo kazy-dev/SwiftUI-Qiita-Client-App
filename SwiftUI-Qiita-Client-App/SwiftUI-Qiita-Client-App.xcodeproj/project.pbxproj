@@ -22,6 +22,9 @@
 		5AD86985233B55FD00024281 /* QiitaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD86984233B55FD00024281 /* QiitaError.swift */; };
 		5AD86988233B570600024281 /* QiitaFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD86987233B570600024281 /* QiitaFetchable.swift */; };
 		5AD8698B233B576D00024281 /* QiitaFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8698A233B576D00024281 /* QiitaFetcher.swift */; };
+		5AD8698D233B59B200024281 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8698C233B59B200024281 /* README.md */; };
+		5AD86990233B5D8400024281 /* SwiftUI-Qiita-Cliant-App_Screen_Movie.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8698F233B5D8400024281 /* SwiftUI-Qiita-Cliant-App_Screen_Movie.gif */; };
+		5AD86998233B60B300024281 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD86997233B60B300024281 /* image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		5AD86984233B55FD00024281 /* QiitaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaError.swift; sourceTree = "<group>"; };
 		5AD86987233B570600024281 /* QiitaFetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaFetchable.swift; sourceTree = "<group>"; };
 		5AD8698A233B576D00024281 /* QiitaFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaFetcher.swift; sourceTree = "<group>"; };
+		5AD8698C233B59B200024281 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5AD8698F233B5D8400024281 /* SwiftUI-Qiita-Cliant-App_Screen_Movie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "SwiftUI-Qiita-Cliant-App_Screen_Movie.gif"; sourceTree = "<group>"; };
+		5AD86997233B60B300024281 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,8 @@
 		5AD86939233B55D300024281 = {
 			isa = PBXGroup;
 			children = (
+				5AD8698E233B5D5C00024281 /* Resources */,
+				5AD8698C233B59B200024281 /* README.md */,
 				5AD86944233B55D300024281 /* SwiftUI-Qiita-Client-App */,
 				5AD8695B233B55D500024281 /* SwiftUI-Qiita-Client-AppTests */,
 				5AD86966233B55D500024281 /* SwiftUI-Qiita-Client-AppUITests */,
@@ -214,6 +222,15 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		5AD8698E233B5D5C00024281 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8698F233B5D8400024281 /* SwiftUI-Qiita-Cliant-App_Screen_Movie.gif */,
+				5AD86997233B60B300024281 /* image1.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,8 +335,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD86990233B5D8400024281 /* SwiftUI-Qiita-Cliant-App_Screen_Movie.gif in Resources */,
 				5AD86952233B55D400024281 /* LaunchScreen.storyboard in Resources */,
 				5AD8694F233B55D400024281 /* Preview Assets.xcassets in Resources */,
+				5AD86998233B60B300024281 /* image1.png in Resources */,
+				5AD8698D233B59B200024281 /* README.md in Resources */,
 				5AD8694C233B55D400024281 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
